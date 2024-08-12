@@ -18,6 +18,7 @@ namespace Homework01
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
 
             app.MapControllers();
 
